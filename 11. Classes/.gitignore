@@ -1,0 +1,75 @@
+############################
+# Build & artifacts
+############################
+bin/
+obj/
+out/
+artifacts/
+[Bb]uild/
+[Ll]ogs/
+*.obj
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+
+############################
+# Visual Studio / VS Code
+############################
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.VC.db
+.vscode/*           # keep settings.json if you want; otherwise ignore it
+!.vscode/settings.json
+
+############################
+# JetBrains Rider / ReSharper
+############################
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+############################
+# NuGet & Pack
+############################
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+# Keep the lock file in git (recommended):
+!packages.lock.json
+
+############################
+# Test & Coverage
+############################
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+*.binlog
+
+############################
+# Publish / Profiles
+############################
+*.pubxml.user
+*.pubxml # consider keeping these if you share publish profiles
+
+############################
+# OS junk
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################
+# Optional: front-end (if using SPA in your .NET app)
+############################
+node_modules/
+dist/
